@@ -7,3 +7,4 @@
 - [Expose Your App Publicly by Create a Service](04.md)
 - [Using labels](05.md)
 - [Deleting a service](06.md)
+- [Scaling a deployment](07.md)
