@@ -8,3 +8,4 @@
 - [Using labels](05.md)
 - [Deleting a service](06.md)
 - [Scaling a deployment](07.md)
+- [Load Balancing](08.md)
