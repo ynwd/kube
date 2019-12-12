@@ -1,5 +1,7 @@
 # Kubernetes Step by Step
 
+![kubernetes](https://d33wubrfki0l68.cloudfront.net/69e55f968a6f44613384615c6a78b881bfe28bd6/42cd3/_common-resources/images/flower.svg)
+
 - [Preparation](00.md)
 - [Create a cluster](01.md)
 - [Deploy an app](02.md)
