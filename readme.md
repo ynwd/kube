@@ -13,3 +13,4 @@
 - [Load Balancing](08.md)
 - [Scale Down](09.md)
 - [Update the version of the app](10.md)
+- [Verify an update](11.md)
