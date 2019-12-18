@@ -15,3 +15,5 @@
 - [Update the version of the app](10.md)
 - [Verify an update](11.md)
 - [Rollback an update](12.md)
+#
+- [Deploy Using Local Image](13.md)
