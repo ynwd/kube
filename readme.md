@@ -2,18 +2,16 @@
 
 ![kubernetes](https://d33wubrfki0l68.cloudfront.net/69e55f968a6f44613384615c6a78b881bfe28bd6/42cd3/_common-resources/images/flower.svg)
 
-- [Preparation](00.md)
-- [Create a cluster](01.md)
-- [Deploy an app](02.md)
-- [Viewing Node and Pods](03.md)
-- [Expose Your App Publicly by Create a Service](04.md)
-- [Using labels](05.md)
-- [Deleting a service](06.md)
-- [Scaling a deployment](07.md)
-- [Load Balancing](08.md)
-- [Scale Down](09.md)
-- [Update the version of the app](10.md)
-- [Verify an update](11.md)
-- [Rollback an update](12.md)
-#
-- [Deploy Using Local Image](13.md)
+## Prasyarat
+- Pastikan sudah mencoba dan memahami [Docker container](https://docs.docker.com/get-started/) terlebih dahulu.
+
+## Apa itu kubernetes
+- Kubernetes adalah platform yang dipakai untuk mengatur dan mengelola [container](https://docs.docker.com/glossary/#container).
+
+## Langkah-langkah
+- [Instalasi Kubernetes](000.md)
+  - [Instalasi di macOS](000.md#instalasi-di-macos)
+  - [Instalasi di Ubuntu](000.md#instalasi-di-ubuntu)
+- [Create Cluster](001.md)
+  - [Create Cluster on macOS](001.md#create-cluster-on-macos)
+  - [Create Cluster on Ubuntu](001.md#create-cluster-on-ubuntu)
