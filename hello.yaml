@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-hello
+  labels:
+    app: node_hello
+spec:
+  containers:
+    - name: cntr-hello
+      image: hello:0.0.1
+      ports:
+        - containerPort: 8080
