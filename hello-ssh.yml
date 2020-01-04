@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-deployment
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: ssh
+  template:
+    metadata:
+      labels:
+        app: ssh
+    spec:
+      containers:
+      - name: cntr-ssh
+        image: ssh:0.0.1
+        ports:
+          - containerPort: 8080
+            name: http
+          - containerPort: 22
+            name: ssh
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-ssh
+spec:
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      targetPort: 8080
+      port: 80
+      name: http
+    - protocol: TCP
+      targetPort: 22
+      port: 22
+      name: ssh
+  selector:
+    app: ssh

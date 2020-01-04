@@ -19,3 +19,4 @@
 - [Node.js App Pod](003.md)
 - [Node.js App Deployment](004.md)
 - [Create Node.js App Service](005.md)
+- [Load Balancer](006.md)
