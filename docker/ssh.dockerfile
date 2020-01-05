@@ -8,6 +8,6 @@ RUN /usr/bin/ssh-keygen -A
 RUN ssh-keygen -t rsa -b 4096 -f  /etc/ssh/ssh_host_key
 EXPOSE 22
 EXPOSE 8080
-COPY server.js .
-ADD supervisord.conf /etc/
+COPY src/server.js .
+ADD docker/supervisord.conf /etc/
 ENTRYPOINT ["supervisord", "--nodaemon", "--configuration", "/etc/supervisord.conf"]
