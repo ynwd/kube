@@ -1,0 +1,25 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "![kubernetes](https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynwd/learn-kubernetes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynwd/learn-kubernetes/issues"
+  },
+  "homepage": "https://github.com/ynwd/learn-kubernetes#readme",
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
