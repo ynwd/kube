@@ -3,10 +3,10 @@
 ![kubernetes](https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg)
 
 ## Prasyarat
-- Pastikan sudah mencoba dan memahami [Docker container](docs/https://docs.docker.com/get-started/) terlebih dahulu.
+- Pastikan sudah mencoba dan memahami [Docker container](https://docs.docker.com/get-started/) terlebih dahulu.
 
 ## Apa itu kubernetes
-- Kubernetes adalah platform yang dipakai untuk mengatur dan mengelola [container](docs/https://docs.docker.com/glossary/#container).
+- Kubernetes adalah platform yang dipakai untuk mengatur dan mengelola [container](https://docs.docker.com/glossary/#container).
 
 ## Langkah-langkah
 - Instalasi Kubernetes
