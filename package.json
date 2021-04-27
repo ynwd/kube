@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/ynwd/learn-kubernetes#readme",
   "dependencies": {
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   }
 }
